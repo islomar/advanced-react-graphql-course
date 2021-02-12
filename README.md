@@ -39,7 +39,9 @@
 - **Front-end**
 
   - React
-  - Next.js: React framework
+  - Next.js:
+    - React framework
+    - It is server rendered
   - Apollo Client
   - Styled Components
 
@@ -51,6 +53,13 @@
 ## Module 2: Learning Next.js
 
 - Autocomplete HTML inside a React component: https://code.visualstudio.com/docs/editor/emmet#_emmet-abbreviations-in-other-file-types
+- New pages created are automatically routed (because of Next), e.g. http://localhost:7777/account
+- Next.js is **server rendered**.
+  - In production, you can see all the HTML sent from the Next server when inspecting the source in a web browser. React rehydrates it in the frontend.
+  - Good for SEO.
+  - It gets rendered even if a client has the JavaScript disabled.
+  - When the HTML arrives to the browser, Next converts it to a React application, so for example you can still navigate between pages without the pages being reloaded, like an SPA.
+  - But you can also use Next for **statically rendered** content: at build time, you can pre-render some pages, so that they load really really quickly.
 
 ## Module 3: CSS and Styled Components
 
