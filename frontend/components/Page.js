@@ -1,8 +1,9 @@
-export default function Page(props) {
+export default function Page({ children, cool }) {
   return (
     <div>
       <h2>I am the page component</h2>
-      {props.children}
+      {children}
+      <h3>{cool}</h3>
     </div>
   );
 }
