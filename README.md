@@ -50,7 +50,7 @@
 
 ## Module 2: Learning Next.js
 
-TBD
+- Autocomplete HTML inside a React component: https://code.visualstudio.com/docs/editor/emmet#_emmet-abbreviations-in-other-file-types
 
 ## Module 3: CSS and Styled Components
 
