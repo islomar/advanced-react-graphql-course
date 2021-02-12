@@ -4,7 +4,7 @@
 - https://github.com/wesbos/Advanced-React/
 - https://advancedreact.com/
 - https://courses.wesbos.com/account/access/6023ec322a34157df9eda237
-- Bookmark: 1 / 70
+- Bookmark: 4 / 70
 
 ## Module 1: Introduction and Setup
 
@@ -52,6 +52,8 @@
 
 ## Module 2: Learning Next.js
 
+### An intro to Next
+
 - Autocomplete HTML inside a React component: https://code.visualstudio.com/docs/editor/emmet#_emmet-abbreviations-in-other-file-types
 - New pages created are automatically routed (because of Next), e.g. http://localhost:7777/account
 - Next.js is **server rendered**.
@@ -60,6 +62,10 @@
   - It gets rendered even if a client has the JavaScript disabled.
   - When the HTML arrives to the browser, Next converts it to a React application, so for example you can still navigate between pages without the pages being reloaded, like an SPA.
   - But you can also use Next for **statically rendered** content: at build time, you can pre-render some pages, so that they load really really quickly.
+
+### Creating a Page Layout Component
+
+- Use `triggerSuggest` from VSCode for the automatic import.
 
 ## Module 3: CSS and Styled Components
 
@@ -109,7 +115,8 @@ TBD
 
 - Wes Bos' tools and setup: https://wesbos.com/uses
 - https://github.com/wesbos/dotfiles
-
-* [VS Code extensions used by Wes Bos](https://github.com/wesbos/dotfiles/blob/master/vs-code-extensions-i-use.md)
+- [ESLint and Prettier configuration](https://github.com/wesbos/eslint-config-wesbos)
+  - [Video](https://www.youtube.com/watch?v=lHAeK8t94as)
+- [VS Code extensions used by Wes Bos](https://github.com/wesbos/dotfiles/blob/master/vs-code-extensions-i-use.md)
   - https://github.com/Microsoft/vscode-eslint
   - https://github.com/prettier/prettier-vscode
