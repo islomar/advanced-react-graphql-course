@@ -77,6 +77,9 @@
 
 ### Creating our Header and Nav components
 
+- Use `<Link>` for navigating inside your app.
+- Use `<a link="">` to navigate out of your app.
+
 ## Module 3: CSS and Styled Components
 
 TBD
