@@ -68,6 +68,8 @@
 - Use `triggerSuggest` from VSCode for the automatic import.
 - `Warning: Failed prop type: Invalid prop `children`of type`object`supplied to`Page`, expected an array.`
   - It expected an array, it is solved using `PropTypes.any` as the type for the children in the Page.
+- Next.js requires having a `page` folder. If you want further control for the pages, you need to create an `_app.js` file.
+- Ghost tags: `<> xxx </>`
 
 ## Module 3: CSS and Styled Components
 
