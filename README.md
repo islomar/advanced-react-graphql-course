@@ -4,7 +4,7 @@
 - https://github.com/wesbos/Advanced-React/
 - https://advancedreact.com/
 - https://courses.wesbos.com/account/access/6023ec322a34157df9eda237
-- Bookmark: 6 / 70, minute xx
+- Bookmark: 7 / 70, minute 0
 
 ## Module 1: Introduction and Setup
 
