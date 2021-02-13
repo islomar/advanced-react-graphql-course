@@ -69,7 +69,13 @@
 - `Warning: Failed prop type: Invalid prop `children`of type`object`supplied to`Page`, expected an array.`
   - It expected an array, it is solved using `PropTypes.any` as the type for the children in the Page.
 - Next.js requires having a `page` folder. If you want further control for the pages, you need to create an `_app.js` file.
+  - https://nextjs.org/docs/advanced-features/custom-app
 - Ghost tags: `<> xxx </>`
+- `_component.js`: another special element from Next.js
+  - https://nextjs.org/docs/advanced-features/custom-document
+  - used to augment your application's <html> and <body> tags. This is necessary because Next.js pages skip the definition of the surrounding document's markup.
+
+### Creating our Header and Nav components
 
 ## Module 3: CSS and Styled Components
 
