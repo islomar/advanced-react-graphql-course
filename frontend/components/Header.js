@@ -1,7 +1,12 @@
 export default function Header() {
   return (
     <header>
-      <p>I am the header</p>
+      <div className="bar">
+        <a href="/">Sick fits</a>
+      </div>
+      <div className="sub-class">
+        <p>Search</p>
+      </div>
     </header>
   );
 }
