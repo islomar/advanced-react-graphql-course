@@ -4,7 +4,7 @@
 - https://github.com/wesbos/Advanced-React/
 - https://advancedreact.com/
 - https://courses.wesbos.com/account/access/6023ec322a34157df9eda237
-- Bookmark: 4 / 70, minute 10
+- Bookmark: 6 / 70, minute xx
 
 ## Module 1: Introduction and Setup
 
@@ -82,7 +82,12 @@
 
 ## Module 3: CSS and Styled Components
 
-TBD
+### An intro to Styled Components and CSS
+
+- Advantages of defining the CSS in the components itself:
+  - You can scope the CSS in a very easy way.
+  - You can use JS values inside CSS.
+- Wes Bos opinion: he leaves the style inside the same file until either the file grows too much or it needs to be reused.
 
 ## Module 4: Server Side GraphQL Development
 
