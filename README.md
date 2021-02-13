@@ -4,7 +4,7 @@
 - https://github.com/wesbos/Advanced-React/
 - https://advancedreact.com/
 - https://courses.wesbos.com/account/access/6023ec322a34157df9eda237
-- Bookmark: 4 / 70
+- Bookmark: 4 / 70, minute 10
 
 ## Module 1: Introduction and Setup
 
@@ -66,6 +66,8 @@
 ### Creating a Page Layout Component
 
 - Use `triggerSuggest` from VSCode for the automatic import.
+- `Warning: Failed prop type: Invalid prop `children`of type`object`supplied to`Page`, expected an array.`
+  - It expected an array, it is solved using `PropTypes.any` as the type for the children in the Page.
 
 ## Module 3: CSS and Styled Components
 
@@ -120,3 +122,7 @@ TBD
 - [VS Code extensions used by Wes Bos](https://github.com/wesbos/dotfiles/blob/master/vs-code-extensions-i-use.md)
   - https://github.com/Microsoft/vscode-eslint
   - https://github.com/prettier/prettier-vscode
+- Dockerization
+  - https://medium.com/@francoisromain/getting-started-with-docker-for-local-node-js-development-192ceca18781
+- Next.js SSR:
+  - https://flaviocopes.com/nextjs-ssr/
