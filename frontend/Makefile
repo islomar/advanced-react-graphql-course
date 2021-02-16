@@ -8,8 +8,11 @@ deps:
 	@echo "Installing dependencies..."
 	npm install
 
+setup-devenv:
+	./scripts/generate-dotenv.sh
+
 fix-permissions:
-	scripts/fix-permissions.sh
+	./scripts/fix-permissions.sh
 
 npm/install: ACTION=install
 npm/update: ACTION=update
