@@ -1,10 +1,10 @@
 # Course "Fullstack Advanced React & GraphQL"
 
 - By Wes Bos
-- https://github.com/wesbos/Advanced-React/
+-
 - https://advancedreact.com/
 - https://courses.wesbos.com/account/access/6023ec322a34157df9eda237
-- Bookmark: 7 / 70, minute 0
+- Bookmark: 8 / 70, minute 5
 
 ## Module 1: Introduction and Setup
 
@@ -88,6 +88,15 @@
   - You can scope the CSS in a very easy way.
   - You can use JS values inside CSS.
 - Wes Bos opinion: he leaves the style inside the same file until either the file grows too much or it needs to be reused.
+
+### Global Styles
+
+Sometimes you need to declare styles just once in order to be reduced, not once and again in several components. For that, you can use the Global Styles.
+
+### Visualizing Route changes
+
+- Sometimes navigating between links inside your apply might be slow. In that case, it is good to give the user any kind of feedback, so that they know that something is happening.
+- For that, we can use a packaged called _NProgress_ and show a nice upper bar which changes as it navigates: https://ricostacruz.com/nprogress/
 
 ## Module 4: Server Side GraphQL Development
 
