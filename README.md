@@ -1,10 +1,19 @@
 # Course "Fullstack Advanced React & GraphQL"
 
 - By Wes Bos
--
 - https://advancedreact.com/
 - https://courses.wesbos.com/account/access/6023ec322a34157df9eda237
 - Bookmark: 8 / 70, minute 5
+
+## Update from 4th February 2021
+- Email received with lots of changes: better to start it from scratch.
+- Some updates: 
+  - Moved from React classes to hooks.
+  - From Apollo Client 2 to 3
+  - Backend now with Keystone.
+  - Use of Typescript
+  - Total rewrite of the roles + permissions
+  - Moved from Stripe Checkout to Stripe Elements 
 
 ## Module 1: Introduction and Setup
 
